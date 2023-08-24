@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>Music</title>
+</head>
+<body>
+    <!-- tong the -->
+    <div class="full">
+        
+        <div class="main">
+            <div class="mainbg">
+                <button class="btnmodelight">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </button>
+                <button class="btnanimation">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                </button>
+                <div class="mainimg">
+                  
+                    
+                        <div class="linerbg"></div>
+                    
+
+                </div>
+            
+
+               <div class="mainindex">
+                    <div class="content">
+                    <div class="play">
+
+                        <div class="displayms">
+                            <div class="infor">
+
+                                <p>Now Playing: </p>
+                                <div class="namemusic">
+                                    <h1>Making My Way</h1>
+                                </div>
+                                <div class="singer">
+                                    <p>Son Tung MT-P</p>
+                                </div>
+    
+    
+                            </div>
+                            <div class="imgcd">
+                                <!-- <img class="imgcd" src="./Accsent/img/img1.webp" alt=""> -->
+                                <div class="hole"></div>
+                            </div>
+                        </div>
+                        <div class="tools">
+                            <div class="btnmode">
+                                <button class="btnrandom "><i  class="fa-solid fa-shuffle btn shuffle focus"></i></button>
+                            </div>
+
+                            <div class="btnfuntion">
+                                <button class="btnprev"><i class="fa-sharp fa-solid fa-backward"></i></button>
+                                <button class="btnplay"  ><i class="fa-solid fa-circle-play"></i></button>
+                                <button class="btnnext "><i class="fa-sharp fa-solid fa-forward"></i></button>
+
+                            </div>
+                            <div class="btnmode">
+                                <button class="btncomeb"><i  class="fa-solid fa-repeat btn repeat focus"></i></button>
+                               
+                            </div>
+                            
+                        </div>
+                        
+                        <input class="time" id="time" type="range" value="0" step="0.01" min="0" max="100" >
+                        <!-- <div class="time"></div> -->
+
+                    </div>
+                    <div class="menu">
+                        <div class="list">
+                            <!-- list -->
+                            <!-- <div class="listmusic">
+                                <div class="imglist">
+                                    <img src="./Accsent/img/img1.webp" alt="">
+                                </div>
+                                <div class="inforlist">
+                                    <p class="namemusiclist">Making my way</p>
+                                    <p class="authorlist">Son Tung MT-P</p>
+                                </div>
+                                
+                                
+                            </div> -->
+                           
+                            
+    
+                        </div>
+                        <!-- <div >
+                            <button class="btnaddsong">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div> -->
+                        <div class="list favoriteListS  "></div>
+                        <button class="btnmenu ">
+                            <i class="fa-sharp fa-solid fa-up-down-left-right"></i>
+                        </button>
+                        <button class="btnfavoriteListS ">
+                            <i class="fa-regular fa-heart  "></i>
+                        </button>
+                    </div>
+
+
+                    </div>
+
+               </div>
+               <audio id="audio" src=""></audio>
+
+
+            </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+<script src="./script.js"></script>
+</html>
